@@ -1,0 +1,9 @@
+---
+# Ansible playbook to build clasp
+
+- name: Build Clasp from source
+  hosts: all
+
+  roles:
+    - kamaln7.swapfile
+    - clasp-build

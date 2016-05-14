@@ -1,6 +1,9 @@
 # imported roles
 - src: kamaln7.swapfile
 
+- src: git+ssh://git@git.incidental.space/glos-ansible/base-prep.git
+  name: base-prep
+
 - src: git+ssh://git@git.incidental.space/glos-ansible/clasp-externals.git
   name: clasp-externals
 

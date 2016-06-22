@@ -6,4 +6,8 @@
 
   roles:
     - { role: kamaln7.swapfile, become: yes, tags: ["swapfile"] }
+    - base-prep
+    # clasp requires llvm to be built with debug
+    - { role: clasp-externals, externals_clasp_target: all }
+    - { role: clasp-externals, externals_clasp_target: llvm-debug }
     - clasp-build

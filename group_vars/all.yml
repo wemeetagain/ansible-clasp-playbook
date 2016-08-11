@@ -1,6 +1,7 @@
 ---
 pjobs: 4
 
-externals_clasp_dir: ~/Code/auto/externals-clasp
-clasp_src_dir: ~/Code/auto/clasp
+# should be absolute path
+externals_clasp_dir: /home/cayman/Code/auto/externals-clasp
+clasp_src_dir: /home/cayman/Code/auto/clasp
 clasp_version: testing

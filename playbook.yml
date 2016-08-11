@@ -8,5 +8,7 @@
     - role: kamaln7.swapfile
       become: yes
       tags: ["swapfile"]
-    - clasp-externals
-    - clasp-build
+    - role: clasp-externals
+      tags: ["clasp-externals"]
+    - role: clasp-build
+      tags: ["clasp-externals"]

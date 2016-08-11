@@ -1,9 +1,9 @@
 # imported roles
 - src: kamaln7.swapfile
 
-- src: git+ssh://git@gitlab.incidental.space/ansible/clasp-externals.git
+- src: https://github.com/wemeetagain/ansible-clasp-externals
   name: clasp-externals
 
-- src: git+ssh://git@gitlab.incidental.space/ansible/clasp-build.git
+- src: https://github.com/wemeetagain/ansible-clasp-build
   name: clasp-build
 

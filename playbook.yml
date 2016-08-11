@@ -5,6 +5,8 @@
   hosts: all
 
   roles:
-    - { role: kamaln7.swapfile, become: yes, tags: ["swapfile"] }
+    - role: kamaln7.swapfile
+      become: yes
+      tags: ["swapfile"]
     - clasp-externals
     - clasp-build

@@ -4,12 +4,12 @@ This playbook builds clasp and all its dependencies. It is meant
 mainly for CI purposes, and has not been optimized for incremental usage.
 Currently this has only been tested on Archlinux and Ubuntu 16.04.
 
-#### How to use (if you are unfamiliar with ansible):
+#### How to use on you local machine (if you are unfamiliar with ansible):
 
 - install ansible
 - run `ansible-galaxy install -fr requirements.yml` to install role dependencies
 - tweak variables to your liking by editing group_vars/all.yml
-- run `ansible-playbook playbook --ask-sudo-pass`, optionally setting
+- run `ansible-playbook playbook -i "localhost," -c local --ask-sudo-pass`, optionally setting
   [tags](https://docs.ansible.com/ansible/playbooks_tags.html), to begin
 
 ## Roles

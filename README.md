@@ -8,7 +8,7 @@ Currently this has only been tested on Archlinux and Ubuntu 16.04.
 
 - install ansible
 - run `ansible-galaxy install -fr requirements.yml` to install role dependencies
-- tweak variables to your liking by editing group_vars/all.yml
+- tweak variables to your liking by editing group_vars/all.yml, see [example](https://github.com/wemeetagain/ansible-clasp-playbook/blob/example-vars/group_vars/all.yml)
 - run `ansible-playbook playbook -i "localhost," -c local --ask-sudo-pass`, optionally setting
   [tags](https://docs.ansible.com/ansible/playbooks_tags.html), to begin
     - eg: if you don't need extra swap, `ansible-playbook playbook -i "localhost," -c local --ask-sudo-pass --skip-tags "swapfile"`

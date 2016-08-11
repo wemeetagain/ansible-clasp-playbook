@@ -1,1 +1,6 @@
 ---
+pjobs: 4
+
+externals_clasp_dir: ~/Code/auto/externals-clasp
+clasp_src_dir: ~/Code/auto/clasp
+clasp_version: testing

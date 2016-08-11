@@ -1,14 +1,9 @@
 # imported roles
 - src: kamaln7.swapfile
 
-- src: git+ssh://git@gitlab.incidental.space/ansible/base-prep.git
-  name: base-prep
-
 - src: git+ssh://git@gitlab.incidental.space/ansible/clasp-externals.git
   name: clasp-externals
 
 - src: git+ssh://git@gitlab.incidental.space/ansible/clasp-build.git
   name: clasp-build
 
-- src: git+ssh://git@gitlab.incidental.space/ansible/apt-source.git
-  name: apt_source

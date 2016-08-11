@@ -6,6 +6,5 @@
 
   roles:
     - { role: kamaln7.swapfile, become: yes, tags: ["swapfile"] }
-    - base-prep
     - clasp-externals
     - clasp-build

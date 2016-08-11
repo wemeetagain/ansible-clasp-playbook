@@ -11,6 +11,7 @@ Currently this has only been tested on Archlinux and Ubuntu 16.04.
 - tweak variables to your liking by editing group_vars/all.yml
 - run `ansible-playbook playbook -i "localhost," -c local --ask-sudo-pass`, optionally setting
   [tags](https://docs.ansible.com/ansible/playbooks_tags.html), to begin
+    - eg: if you don't need extra swap, `ansible-playbook playbook -i "localhost," -c local --ask-sudo-pass --skip-tags "swapfile"`
 
 ## Roles
 

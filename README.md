@@ -6,7 +6,7 @@ Currently this has only been tested on Archlinux and Ubuntu 16.04.
 
 #### How to use on you local machine (if you are unfamiliar with ansible):
 
-- install ansible
+- install ansible (>=stable-2.0, must use pip on Ubuntu 16.04)
 - run `ansible-galaxy install -fr requirements.yml` to install role dependencies
 - tweak variables to your liking by editing group_vars/all.yml, see [example](https://github.com/wemeetagain/ansible-clasp-playbook/blob/example-vars/group_vars/all.yml)
 - run `ansible-playbook playbook -i "localhost," -c local --ask-sudo-pass`, optionally setting

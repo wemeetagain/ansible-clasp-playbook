@@ -59,6 +59,7 @@ default: 2
     applies to Ubuntu (for now)
 - `clasp-build` - run clasp-build role
   - `clasp-checkout` - (re)checkout clasp from source
+  - `clasp-config` - (re)create a local.config
   - `clasp-make` - make clasp from source
 
 ## License

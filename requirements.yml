@@ -1,10 +1,6 @@
 # imported roles
 - src: kamaln7.swapfile
 
-- src: debops.apt
-
-- src: debops.apt_preferences
-
 - src: https://github.com/wemeetagain/ansible-clasp-externals
   name: clasp-externals
 
